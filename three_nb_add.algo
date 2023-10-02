@@ -1,0 +1,27 @@
+VAR
+
+   sentence_count: INTEGER: =0;
+   word_count:INTEGER: =0:
+   vowel_count:INTEGER:=0;
+
+BEGIN
+
+  FOR i FROM 0 TO "." STEP =1  DO
+   IF (sentence_count) THEN
+      sentence_count: 0 sentence_count +1
+   END_IF
+  END_FOR
+
+  FOR i FROM 0 TO "." STEP =1  DO
+   IF (word_count) THEN
+      word_count: 0 word_count +1
+   END_IF
+  END_FOR
+
+  FOR i 0 TO "." STEP step  DO
+   IF (vowel_count) THEN
+      vowel_count:0 = vowel_count +1
+   END_IF
+  END_FOR
+END
+
